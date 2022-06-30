@@ -1,8 +1,8 @@
 #include <stdio.h>
-/
-* main - this is my main function with no arguments
+/**
+* main- Entry point
 * this function must output 0 (success)
-/
+*/
 
 int main(void)
 {
