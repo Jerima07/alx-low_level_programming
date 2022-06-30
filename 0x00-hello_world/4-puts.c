@@ -1,7 +1,7 @@
 #include <stdio.h>
 /
 * main - this is my main function with no arguments
-*this function must output a success
+* this function must output 0 (success)
 /
 
 int main(void)
