@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	char last[] = "last digi of";
+	char last[] = "Last digi of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
