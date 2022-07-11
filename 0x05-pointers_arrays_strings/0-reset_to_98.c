@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * reset_to_98 -funtion to reset pointer
- * @n: pointer variable
+ * main - pointer function
  * Return: always 0
  */
-void reset_to_98(int)
+int maint (void)
 {
 	int p;
 	int *n;
