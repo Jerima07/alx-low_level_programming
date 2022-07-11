@@ -4,11 +4,11 @@
  * main - pointer function
  * Return: always 0
  */
-int maint (void)
+int main(void)
 {
 	int p;
 	int *n;
 
 	p = 98;
-	n = &p;
+	*n = &p;
 }
