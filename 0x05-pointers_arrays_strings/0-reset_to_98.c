@@ -11,4 +11,7 @@ int main(void)
 
 	p = 98;
 	*n = &p;
+	_putchar("Address of 'p' : %p\n", &p);
+	_putchar("Value of 'n' : %p\n", &n);
+	return (0);
 }
