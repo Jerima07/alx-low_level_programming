@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - pointer function
+ * reset_to_98 - pointer function
+ * @n: pointer variable
  * Return: always 0
  */
-int main(void)
+void reset_to_98(int *n)
 {
 	int p;
-	int *n;
 
 	p = 98;
 	*n = &p;
-	printf("Address of 'p' : %p\n", &p);
-	printf("Value of 'n' : %p\n", &n);
+	putchar("Address of 'p' : %p\n", &p);
+	putchar("Value of 'n' : %p\n", &n);
 	return (0);
 }
