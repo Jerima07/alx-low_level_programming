@@ -27,7 +27,7 @@ char *_strdup(char *str)
 
 	for (j = 0; j <= i; j++)
 	{
-		S[j] = s[j];
+		s[j] = s[j];
 	}
 	return (s);
 }
