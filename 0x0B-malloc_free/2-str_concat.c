@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 	if (!s1)
 		s1 = "";
 	else
-		li = _strlen(s1);
+		l1 = _strlen(s1);
 
 	if (!s2)
 		s2 = "";
